@@ -1,0 +1,92 @@
+html{
+    min-height: 100vh;
+}
+body{
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 24px;
+    
+    margin-left: auto;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: fit-content;
+    padding: 10px 40px;
+    
+    border-radius: 8px;
+    
+    background-color: #ccc;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.container-action{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.container-action-account{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    top: -5px;
+}
+
+.header{
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.paragraph{
+    font-size: 14px;
+}
+
+.show-password{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.title{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.txt-box{
+    display: block;
+    min-width: 270px;
+    min-height: 18px;
+    width: 100%;
+    
+    border-style: none;
+    border-radius: 3px;
+}
